@@ -1,0 +1,11 @@
+justdo.eu-gb.cf.appdomain.cloud
+
+git clone https://github.com/pchaos/v2ray-cloudfoundry.git
+chmod +x v2ray-cloudfoundry/v2ray/*
+cd v2ray-cloudfoundry
+ibmcloud account org-create justdo 
+ibmcloud target --cf
+
+ibmcloud cf push
+
+wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/CCChieh/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
