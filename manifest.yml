@@ -3,3 +3,6 @@ applications:
   name: justdo
   random-route: true
   memory: 256M
+  
+ibmcloud target --cf
+ibmcloud cf push
