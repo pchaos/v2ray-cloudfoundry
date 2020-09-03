@@ -2,7 +2,7 @@
   "inbounds": [
     {
       "port": 8080,
-      "address": "justdo.eu-gb.cf.appdomain.cloud",
+      "address": "127.0.0.1",
       "protocol": "vmess",
       "settings": {
         "clients": [
